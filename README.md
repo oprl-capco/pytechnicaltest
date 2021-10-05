@@ -1,4 +1,5 @@
 # Python Technical Test
+<b>Work in progress</b><br/>
 Contains technical exercises and snippets for Python technical interviews.
 ## Setup
 1. Ensure that you have Python 3 and pip installed.
