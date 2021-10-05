@@ -31,7 +31,9 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+# Write your code below this line
+
 
 @app.get("/exercise/")
-async def ransom_note(note: str, mag: str):
+async def make_note(note: str, mag: str):
     pass

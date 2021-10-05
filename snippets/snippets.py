@@ -41,6 +41,7 @@ def hello():
     print("Hello")
 
 hello()
+print("\n")
 hello_world = my_decorator(hello)
 hello_world()
 
