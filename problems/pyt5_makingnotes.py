@@ -24,7 +24,7 @@
 # Output:
 # {"canMakeNote": "False"}
 
-# Your code must pass the unit test
+# Your code must pass the unit tests in tests/test_pyt5_makingnotes.py
 
 
 from fastapi import FastAPI

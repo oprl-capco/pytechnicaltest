@@ -19,11 +19,15 @@
 
 # Given these requirements, implement the name server.
 
+# Your code must pass the unit test in tests/test_pyt2_nameserver
+
 from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
 table = {}
+
+# Write your code below this line
 
 
 @app.post("/exercise/")
