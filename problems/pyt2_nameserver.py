@@ -31,12 +31,12 @@ table = {}
 
 
 @app.post("/exercise/")
-def write(firstname: str, lastname: str):
+async def write(firstname: str, lastname: str):
     pass
 
 
 @app.get("/exercise/{read_id}")
-def read(read_id: int):
+async def read(read_id: int):
     pass
 
 

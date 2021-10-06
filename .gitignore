@@ -1,2 +1,4 @@
       /.idea
       /.pytest_cache
+      /problems/.pytest_cache
+      /problems/tests/.pytest_cache
