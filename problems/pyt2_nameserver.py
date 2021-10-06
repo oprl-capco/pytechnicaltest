@@ -11,7 +11,7 @@
 # The client should be able to perform the following operations on the dictionary:
 
 # 1. A POST request that takes in a request parameter of the first name and last name
-# then store it in a data structure. The ID, being the key for each record,
+# then store it in the nested dictionary. The ID, being the key for each record,
 # should be incrementing in ascending order.
 
 # 2. A GET request that should be able to query a user's ID from the dictionary and retrieve the record
