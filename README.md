@@ -6,7 +6,7 @@ Contains technical exercises and snippets for Python technical interviews.
 3. Then `pip install pytest`
 ## Guidance
 ### Content
-The `problems` contain technical challenges that the candidate can answer independently, as well as their corresponding unit tests. `snippets1.py` contains code that can be runnable on command line, which the interviewer can ask the candidate about. `snippets2.py` contains refactoring exercises with corresponding unit tests that the interviewer can ask the candidate about.
+The `problems` directory contains technical challenges that the candidate can answer independently, as well as their corresponding unit tests. <br/> <br/>`snippets1.py` contains code that can be runnable on command line, which the interviewer can ask the candidate about. To access the Python command line, simply run `python3` anywhere in your terminal if you have Python 3 installed. <br/> <br/>`snippets2.py` contains refactoring exercises with corresponding unit tests that the interviewer can ask the candidate about.
 ### Conditions
 Candidate should ideally not be using any external Python libraries except the ones specified in this README. Candidate should also ensure that unit tests in this repository are not modified.
 ### Unit testing
