@@ -19,4 +19,3 @@ class TestClass4:
         response = client.get("/exercise/snake/ThisMethod")
         assert response.status_code == 200
         assert response.json() == "this_method"
-

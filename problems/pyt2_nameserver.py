@@ -38,16 +38,3 @@ async def write(firstname: str, lastname: str):
 @app.get("/exercise/{read_id}")
 async def read(read_id: int):
     pass
-
-
-
-
-
-
-
-
-
-
-
-
-

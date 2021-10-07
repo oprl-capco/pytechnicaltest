@@ -33,6 +33,3 @@ async def to_camel(word: str):
 @app.get("/exercise/snake/{word}")
 async def to_snake(word: str):
     pass
-
-    
-
