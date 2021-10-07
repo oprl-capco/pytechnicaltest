@@ -14,6 +14,17 @@
 # and also what word they would like to convert.
 
 # Using this information, complete the "to_camel" and the "to_snake" function.
+# The output should be a JSON response body as follows:
+
+# Example 1
+
+# Input: "this_method"
+# Output: {"CamelCase": "ThisMethod"}
+
+# Example 2
+
+# Input: "ThisMethod"
+# Output: {"snake_case": "this_method"}
 
 # Your code must pass the unit tests in tests/test_pyt4_caseconverter.py
 

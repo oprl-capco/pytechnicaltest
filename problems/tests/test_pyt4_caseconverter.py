@@ -13,9 +13,9 @@ class TestClass4:
     def test_should_be_camel(self):
         response = client.get("/exercise/camel/this_method")
         assert response.status_code == 200
-        assert response.json() == "ThisMethod"
+        assert response.json() == {"CamelCase": "ThisMethod"}
 
     def test_should_be_snake(self):
         response = client.get("/exercise/snake/ThisMethod")
         assert response.status_code == 200
-        assert response.json() == "this_method"
+        assert response.json() == {"snake_case": "this_method"}
