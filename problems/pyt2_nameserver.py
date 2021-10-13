@@ -12,7 +12,7 @@
 
 # 1. A POST request that takes in a request parameter of the first name and last name
 # then store it in the nested dictionary. The ID, being the key for each record,
-# should be incrementing in ascending order.
+# should start from one and increment in ascending order for each new record.
 
 # 2. A GET request that should be able to query a user's ID from the dictionary and retrieve the record
 # corresponding to the ID from it. An ID that is not present in the name server should return 404 code.
