@@ -15,7 +15,6 @@ class TestClass2:
         assert response.json() == "Added: " + str({1: {"firstname": "John", "lastname": "Doe"}})
 
     def test_should_get(self):
-        client.post("/exercise/?firstname=John&lastname=Doe")
         client.post("/exercise/?firstname=Jane&lastname=Doe")
         client.post("/exercise/?firstname=Foo&lastname=Bar")
 
