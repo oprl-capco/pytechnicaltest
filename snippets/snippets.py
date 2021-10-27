@@ -40,21 +40,21 @@ print(b[3:8])
 # Now write the code below to a .py file in your terminal
 
 
-def my_method(func):
+def my_func(func):
     def inner():
         func()
         print("World!")
     return inner
 
 
-def hello():
+def a_func():
     print("Hello")
 
 
-hello()
+a_func()
 print("\n")
-hello_world = my_method(hello)
-hello_world()
+another_func = my_func(a_func)
+another_func()
 
 
 # Execute your newly created .py file in terminal
